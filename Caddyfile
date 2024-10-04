@@ -1,0 +1,12 @@
+# Domain name.
+# Get "hostname" from the "tailscale" service in "docker-compose.yml".
+# For example, "my-service.my-tailscale-network.ts.net".
+# A domain certificate will be created.
+my-service.my-tailscale-network.ts.net
+
+# Reverse proxy for our service.
+# Get the name of the service in "docker-compose.yml".
+# For example, "web".
+# Get the running port of the service.
+# For example, "8585"
+reverse_proxy web:8585
