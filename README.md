@@ -6,7 +6,7 @@ This repo is for this blog [post](https://ricklan.net/blog/2024/10/running-a-ser
 
 1. `git clone` this repo
 2. Modify the Tailscale OAuth secret in [.env](./.env) according to your Tailscale settings.
-3. Modify the "hostname" in [docker-compose.yml](./docker-compose.ymls) to your Tailscale settings.
+3. Modify the "hostname" in [docker-compose.yml](./docker-compose.yml) to your Tailscale settings.
 4. Modify the domain name in [Caddyfile](./Caddyfile) to your Tailscale settings.
 5. Run `docker compose up -d`.
 6. Browse to [https://your-service.your-tailscale-network.ts.net](https://your-service.your-tailscale-network.ts.net). There might be a delay for creation of a domain certificate.
